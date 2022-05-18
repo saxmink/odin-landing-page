@@ -1,0 +1,23 @@
+body {
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+    color: white;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+h1 {
+    margin: 0;
+}
