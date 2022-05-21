@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
 .header {
     display: flex;
     color: #FaF9F8;
@@ -21,4 +22,47 @@ body {
 
 h1 {
     margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color:#FaF9F8;
+    margin: 0;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #FaF9F8;
+    font-size: 18px;
+    border: 0px;
+}
+
+.hero-text{
+    flex-shrink: 0;
+    width: 400px;
+}
+
+.placeholder-image {
+    text-align: center;
+    flex-shrink: 0;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(179, 179, 179);
 }
