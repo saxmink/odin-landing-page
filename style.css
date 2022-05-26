@@ -2,6 +2,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
 
 .header {
     display: flex;
@@ -10,6 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 830px;
 }
 
 .header-links {
