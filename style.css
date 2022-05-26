@@ -77,6 +77,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .info-title {
@@ -102,4 +103,27 @@ h1 {
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 50px 0px 30px 0px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-box {
+    width: 700px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 15px
+}
+
+.testimonial-credit{
+    text-align: right;
 }
