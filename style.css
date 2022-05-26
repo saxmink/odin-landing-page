@@ -168,3 +168,10 @@ h1 {
     color: #FaF9F8;
     font-size: 16px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 15px
+}
