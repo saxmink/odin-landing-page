@@ -96,6 +96,8 @@ h1 {
 
 .info-subtext {
     width: 150px;
+    text-align: center;
+    color:#1F2937
 }
 
 .info-img{
@@ -126,4 +128,43 @@ h1 {
 
 .testimonial-credit{
     text-align: right;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    border-radius: 10px;
+    margin: 75px 0px;
+    color:#FaF9F8
+}
+
+.call-to-action-text {
+    margin: 30px 0px;
+}
+
+.call-to-action-title {
+    margin: 0px;
+}
+
+.call-to-action-subtext {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    border: 2px solid #FaF9F8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #FaF9F8;
+    font-size: 16px;
 }
